@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#about-section{
+    margin: 3rem 15rem 0 15rem;
+}
+
+#hi{
+    font-weight: 900;
+}
+
+#myName{
+    color: var(--primary-color);
+    font-weight: 900;
+    font-size: 5rem;
+    text-decoration: underline;
+}
+
+#oneLiner{
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+
+#me{
+    font-weight: 600;
+    width: 55%;
+    margin-top: 1rem;
+}
+
+#companyName{
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+#about-detail{
+    margin-top: 5rem;
+}
+
+#article-heading{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.heading-number{
+    color: var(--primary-color);
+}
+
+hr{
+    margin-left: 2rem;
+    width: 50%;
+    height: 1px;
+    margin-top: 0.8rem;
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.article-content{
+    display: flex;
+}

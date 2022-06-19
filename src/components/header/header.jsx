@@ -2,7 +2,7 @@ import React from 'react';
 import './header.css';
 import Logo from '../../assets/logo.png';
 
-const header = () => {
+const Header = () => {
   return (
     <>
       <header>
@@ -30,4 +30,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
