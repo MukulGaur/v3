@@ -40,6 +40,11 @@ ul li{
     color: var(--primary-color);
 }
 
+.menu-item:hover{
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
 #resume{
     padding: 0.5rem 01rem;
     border-radius: 0.4rem;

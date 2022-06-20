@@ -31,7 +31,7 @@ const About = () => {
                     💬 Ask me about Data structures, Algorithms.
                     <br/><br/>
                     Here are a few technologies I’ve been working with recently:<br/><br/>
-                    🚀 Programming: Java (Spring Framework, Hibernate), JavaScript ( React JS), HTML5, CSS3 (Bootstrap5)
+                    🚀 Programming: Java (Spring Framework, Hibernate), JavaScript (React JS), HTML5, CSS3 (Bootstrap5)
                     <br/><br/>
                     🚀 Database:<br/><br/>
                     SQL - MySQL, MSSQL<br/><br/>

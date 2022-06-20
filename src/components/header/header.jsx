@@ -12,13 +12,13 @@ const Header = () => {
         <nav>
             <ul>
                 <li>
-                    <span className='menu'>01.</span> ABOUT
+                    <span className='menu'>01.</span><span className='menu-item'> ABOUT</span>
                 </li>
                 <li>
-                    <span className='menu'>02.</span> EXPERIENCE
+                    <span className='menu'>02.</span><span className='menu-item'> EXPERIENCE</span>
                 </li>
                 <li>
-                    <span className='menu'>03.</span> PROJECTS
+                    <span className='menu'>03.</span><span className='menu-item'> PROJECTS</span>
                 </li>
                 <li>
                     <button id='resume'>RESUME</button>
