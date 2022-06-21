@@ -8,6 +8,15 @@
     margin: 3rem 10rem 5rem 10rem;
 }
 
+#exp-heading{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.heading{
+    font-size: 1.8rem;
+}
+
 hr{
     margin-left: 2rem;
     width: 25%;
@@ -20,25 +29,20 @@ hr{
 #exp-content{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    column-gap: 5rem;
-    background-color: aqua;
+    column-gap: 5px;
 }
 
-/* #company-btns{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-} */
-
 .btn{
-    width: 100%;
+    width: 60%;
     border: none;
     height: 2.5rem;
-    /* background-color: white; */
+    border-left: solid 2px var(--secondary-color);
+    background-color: white;
+    text-align: center;
 }
 
 .btn:hover{
     cursor: pointer;
-    background-color: var(--primary-color);
+    background-color: var(--hover);
     transition: 0.5s;
 }

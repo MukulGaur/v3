@@ -14,16 +14,15 @@ const About = () => {
                 amazing digital experiences. Currently I'm working
                 at <span id='companyName'>Capgemini</span>.
             </h3>
+            <button id='btn'>Get In Touch</button>
             <article id='about-detail'>
                 <div id='article-heading'>
-                    <h1><span className='heading-number'>01.</span> About Me</h1>
+                    <h1 className='heading'><span className='heading-number'>01.</span> About Me</h1>
                     <hr />
                 </div>
                 <div className='article-content'>
                     <div>
                     <p>
-                    💡 It’s hard enough to find an error in your code when you’re looking for it; it’s even harder when you’ve assumed your code is error-free.
-                    <br/><br/>
                     👋🏻 Hi! I am a software developer who is obsessed with the idea of improving himself, and I love building things for the web.
                     <br/><br/>
                     Development calls to all my passions; it incorporates creativity and problem solving and I am allowed to break it to improve the code <span>( in a separate Git branch, of course)</span>.
@@ -33,9 +32,7 @@ const About = () => {
                     Here are a few technologies I’ve been working with recently:<br/><br/>
                     🚀 Programming: Java (Spring Framework, Hibernate), JavaScript (React JS), HTML5, CSS3 (Bootstrap5)
                     <br/><br/>
-                    🚀 Database:<br/><br/>
-                    SQL - MySQL, MSSQL<br/><br/>
-                    NoSQL - MongoDB
+                    🚀 Database: SQL - MySQL, NoSQL - MongoDB
                     <br/><br/>
                     🚀 Tools: Git, Maven
                     <br/><br/>

@@ -59,5 +59,4 @@ ul li{
     background-color: var(--hover);
     transition: 0.3s;
     color: var(--secondary-color);
-    font-weight: 500;
 }
