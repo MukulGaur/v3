@@ -46,3 +46,7 @@ hr{
     background-color: var(--hover);
     transition: 0.5s;
 }
+
+.d-flex{
+    display: flex;
+}

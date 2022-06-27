@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#project-section{
+    margin: 3rem 10rem 5rem 10rem;
+}
+
+#project-heading{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.heading{
+    font-size: 1.8rem;
+}
+
+hr{
+    margin-left: 2rem;
+    width: 25%;
+    height: 1px;
+    margin-top: 1rem;
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+#cards{
+    justify-content: space-between;
+}
+
+.card{
+    width: 50%;
+    margin: 1rem;
+}
+
+.card-icon{
+    justify-content: space-between;
+}
