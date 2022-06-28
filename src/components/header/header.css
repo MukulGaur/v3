@@ -60,3 +60,39 @@ ul li{
     transition: 0.3s;
     color: var(--secondary-color);
 }
+
+.profile{
+    color: var(--primary-color);
+    margin-left: 3rem;
+    position: sticky;
+    top: 20rem;
+    background-color: var(--secondary-color);
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem 0.1rem;
+}
+
+#github:hover{
+    cursor: pointer;
+}
+
+#linkedin:hover{
+    cursor: pointer;
+}
+
+.email h4{
+    transform: rotate(90deg);
+    right: 5rem;
+    top: 20rem;
+}
+
+/* #line{
+    background-color: var(--primary-color);
+    position: sticky;
+    border-left: 0.1rem solid var(--primary-color);
+    width: 0.1rem;
+    height: 10rem;
+    left: 3.65rem;
+} */

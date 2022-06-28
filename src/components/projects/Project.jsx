@@ -3,6 +3,7 @@ import './project.css';
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 
 const Project = () => {
   return (
@@ -25,11 +26,15 @@ const Project = () => {
                             Mausam (Weather App)
                         </h3>
                     </div>
-                    <div>
-                        <p>
-                        Weather app is a simple weather forecast app, which uses weather APIs from
-                        OpenWeatherMap to fetch the temperature and other details of any city in the world.
-                        </p>
+                    <div className='d-flex'>
+                        <div><ArrowRightIcon/></div>
+                        <div>
+                        The weather app uses weather APIs from OpenWeatherMap
+                        to fetch the temperature and other details of any city in the world.
+                        </div>
+                    </div>
+                    <div className='tech-stack'>
+                        React JS
                     </div>
             </div>
             <div className='card'>
@@ -42,14 +47,33 @@ const Project = () => {
                     </div>
                     <div>
                         <h3>
-                            Mausam (Weather App)
+                            Amusement Park
                         </h3>
                     </div>
                     <div>
-                        <p>
-                        Weather app is a simple weather forecast app, which uses weather APIs from
-                        OpenWeatherMap to fetch the temperature and other details of any city in the world.
-                        </p>
+                        <div className='d-flex'>
+                            <div><ArrowRightIcon/></div>
+                            <div>
+                            The Amusement Park management
+                            system lets the user view all the events in the park and allows them to book tickets as well.
+                            </div>
+                        </div>
+                        <div className='d-flex'>
+                            <div><ArrowRightIcon/></div>
+                            <div>
+                                The Front-end was developed in React JS and Material UI
+                                was used for the designing part, and formik was used for form validations.
+                            </div>
+                        </div>
+                        <div className='d-flex'>
+                            <div><ArrowRightIcon/></div>
+                            <div>
+                                Back-end REST APIs were developed using Java Spring framework.
+                            </div>
+                        </div>
+                        <div className='tech-stack'>
+                            React JS Java Spring MySQL
+                        </div>
                     </div>
             </div>
         </div>

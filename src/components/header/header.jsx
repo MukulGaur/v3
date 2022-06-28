@@ -1,6 +1,8 @@
 import React from 'react';
 import './header.css';
 import Logo from '../../assets/logo.png';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Header = () => {
   return (
@@ -26,6 +28,14 @@ const Header = () => {
             </ul>
         </nav>
       </header>
+      <aside className='profile'>
+        <div id='github'>
+          <GitHubIcon/>
+        </div>
+        <div id='linkedin'>
+          <LinkedInIcon/>
+        </div>
+      </aside>
     </>
   )
 }

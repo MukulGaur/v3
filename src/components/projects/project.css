@@ -37,6 +37,8 @@ hr{
 .card{
     width: 50%;
     margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
 }
 
 .card-icon{
