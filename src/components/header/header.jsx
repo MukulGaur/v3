@@ -3,6 +3,7 @@ import './header.css';
 import Logo from '../../assets/logo.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import MailIcon from '@mui/icons-material/Mail';
 
 const Header = () => {
   return (
@@ -14,7 +15,7 @@ const Header = () => {
         <nav>
             <ul>
                 <li>
-                    <span className='menu'>01.</span><span className='menu-item'> ABOUT</span>
+                    <a href='#about-section'><span className='menu'>01.</span><span className='menu-item'> ABOUT</span></a>
                 </li>
                 <li>
                     <span className='menu'>02.</span><span className='menu-item'> EXPERIENCE</span>
@@ -35,7 +36,11 @@ const Header = () => {
         <div id='linkedin'>
           <LinkedInIcon/>
         </div>
+        <div id='mail'>
+          <MailIcon/>
+        </div>
       </aside>
+      <div className='line-2'></div>
     </>
   )
 }

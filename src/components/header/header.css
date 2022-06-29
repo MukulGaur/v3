@@ -66,19 +66,12 @@ ul li{
     margin-left: 3rem;
     position: sticky;
     top: 20rem;
-    background-color: var(--secondary-color);
     width: fit-content;
     height: fit-content;
-    border: 1px solid black;
-    border-radius: 5px;
     padding: 0.5rem 0.1rem;
 }
 
-#github:hover{
-    cursor: pointer;
-}
-
-#linkedin:hover{
+#github:hover, #linkedin:hover, #mail:hover{
     cursor: pointer;
 }
 
@@ -88,11 +81,12 @@ ul li{
     top: 20rem;
 }
 
-/* #line{
+.line-2{
     background-color: var(--primary-color);
-    position: sticky;
+    position: fixed;
+    top: 27rem;
     border-left: 0.1rem solid var(--primary-color);
     width: 0.1rem;
-    height: 10rem;
-    left: 3.65rem;
-} */
+    height: 30vh;
+    left: 3.8rem;
+}

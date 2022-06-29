@@ -21,7 +21,7 @@ const Project = () => {
                             <OpenInNewIcon/>
                         </div>
                     </div>
-                    <div>
+                    <div className='project-name'>
                         <h3>
                             Mausam (Weather App)
                         </h3>
@@ -45,7 +45,7 @@ const Project = () => {
                             <OpenInNewIcon/>
                         </div>
                     </div>
-                    <div>
+                    <div className='project-name'>
                         <h3>
                             Amusement Park
                         </h3>
@@ -70,9 +70,9 @@ const Project = () => {
                             <div>
                                 Back-end REST APIs were developed using Java Spring framework.
                             </div>
-                        </div>
+                        </div><br/>
                         <div className='tech-stack'>
-                            React JS Java Spring MySQL
+                            React JS, Java Spring, MySQL
                         </div>
                     </div>
             </div>
