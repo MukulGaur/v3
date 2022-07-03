@@ -4,30 +4,36 @@ import Logo from '../../assets/logo.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailIcon from '@mui/icons-material/Mail';
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 const Header = () => {
   return (
     <>
-      <header>
+      <header className='active'>
         <figure>
             <img src={Logo} alt="Mukul Gaur" id="logo" />
         </figure>
         <nav>
-            <ul>
-                <li>
-                    <a href='#about-section'><span className='menu'>01.</span><span className='menu-item'> ABOUT</span></a>
+            <ul className='navbar-list'>
+                <li className='list-link'>
+                    <span className='menu-number'>01.</span><span className='menu-item'> ABOUT</span>
                 </li>
-                <li>
-                    <span className='menu'>02.</span><span className='menu-item'> EXPERIENCE</span>
+                <li className='list-link'>
+                    <span className='menu-number'>02.</span><span className='menu-item'> EXPERIENCE</span>
                 </li>
-                <li>
-                    <span className='menu'>03.</span><span className='menu-item'> PROJECTS</span>
+                <li className='list-link'>
+                    <span className='menu-number'>03.</span><span className='menu-item'> PROJECTS</span>
                 </li>
-                <li>
+                <li className='list-link'>
                     <button id='resume'>RESUME</button>
                 </li>
             </ul>
         </nav>
+        <div className="mobile-navbar-btn">
+          <MenuIcon name='menu' className='mobile-nav-icon'/>
+          <CloseIcon name='close' className='mobile-nav-icon'/>
+        </div>
       </header>
       <aside className='profile'>
         <div id='github'>
