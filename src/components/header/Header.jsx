@@ -8,6 +8,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
 const Header = () => {
+
+  const toggleNavbar = () => {
+    alert("clicked!!");
+  }
+
   return (
     <>
       <header className='active'>
@@ -30,7 +35,7 @@ const Header = () => {
                 </li>
             </ul>
         </nav>
-        <div className="mobile-navbar-btn">
+        <div onClick={ () => toggleNavbar} className="mobile-navbar-btn">
           <MenuIcon name='menu' className='mobile-nav-icon'/>
           <CloseIcon name='close' className='mobile-nav-icon'/>
         </div>
