@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    display: grid;
+    justify-content: center;
+    font-style: italic;
+}
+
+.footer a{
+    text-decoration: underline;
+    color: black;
+    font-weight: bolder;
+}
+
+.footer a:hover{
+    color: var(--primary-color);
+}

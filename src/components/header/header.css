@@ -64,7 +64,7 @@ ul li{
 .profile{
     color: var(--primary-color);
     margin-left: 3rem;
-    position: sticky;
+    position: fixed;
     top: 20rem;
     width: fit-content;
     height: fit-content;

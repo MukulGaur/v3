@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './header.css';
 import Logo from '../../assets/logo.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -9,13 +9,15 @@ import CloseIcon from '@mui/icons-material/Close';
 
 const Header = () => {
 
+  const[isActive, setIsActive] = useState(false);
+
   const toggleNavbar = () => {
-    alert("clicked!!");
+    setIsActive(!isActive);
   }
 
   return (
     <>
-      <header className='active'>
+      <header className={isActive ? 'active':''}>
         <figure>
             <img src={Logo} alt="Mukul Gaur" id="logo" />
         </figure>
@@ -35,7 +37,7 @@ const Header = () => {
                 </li>
             </ul>
         </nav>
-        <div onClick={ () => toggleNavbar} className="mobile-navbar-btn">
+        <div onClick={ () => toggleNavbar()} className="mobile-navbar-btn">
           <MenuIcon name='menu' className='mobile-nav-icon'/>
           <CloseIcon name='close' className='mobile-nav-icon'/>
         </div>
