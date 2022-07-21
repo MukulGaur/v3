@@ -164,10 +164,26 @@ ul li{
     .active .mobile-navbar-btn .mobile-nav-icon[name='menu']{
         display: none;
     }
+
+    .profile{
+        display: none;
+    }
+
+    .line-2{
+        display: none;
+    }
 }
 
 @media (max-width: 35em){
     header{
         padding: 1rem 1rem;
+    }
+
+    .profile{
+        display: none;
+    }
+
+    .line-2{
+        display: none;
     }
 }

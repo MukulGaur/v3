@@ -90,3 +90,83 @@ figure img{
     width: 70%;
     height: 70%;
 }
+
+
+/* media queries */
+
+@media (max-width: 590px){
+
+    #about-section{
+        margin: 3rem 2rem;
+    }
+
+    #oneLiner{
+        font-size: 2rem;
+    }
+
+    #me{
+        width: 100%;
+    }
+
+    #myName{
+        font-size: 3rem;
+    }
+
+    .article-content{
+        display: block;
+    }
+
+    .img{
+        text-align: center;
+    }
+}
+
+@media (min-width: 591px) and (max-width: 797px){
+    .about-para{
+        margin: 3rem;
+    }
+
+    #about-section{
+        margin: 3rem 2rem;
+    }
+
+    #oneLiner{
+        font-size: 2rem;
+    }
+
+    #me{
+        width: 100%;
+    }
+
+    #myName{
+        font-size: 3rem;
+    }
+
+    .article-content{
+        display: block;
+    }
+
+    .img{
+        text-align: center;
+    }
+}
+
+@media (min-width: 798px) and  (max-width:1023px){
+
+    #oneLiner{
+        font-size: 3.1rem;
+    }
+
+    #me{
+        width: 90%;
+    }
+
+    .article-content{
+        display: block;
+    }
+
+    .img{
+        margin-top: 3rem;
+        text-align: center;
+    }
+}

@@ -14,14 +14,14 @@ const About = () => {
                 amazing digital experiences. Currently I'm working
                 at <span id='companyName'>Capgemini</span>.
             </h3>
-            <button id='btn'>Get In Touch</button>
+            <button id='btn'><a href='mailto:mukulgaur91@gmail.com' target='_mukul'>Get In Touch</a></button>
             <article id='about-detail'>
                 <div id='article-heading'>
                     <h1 className='heading'><span className='heading-number'>01.</span> About Me</h1>
                     <hr />
                 </div>
                 <div className='article-content'>
-                    <div>
+                    <div className='about-para'>
                     <p>
                     👋🏻 Hi! I am a software developer who is obsessed with the idea of improving himself, and I love building things for the web.
                     <br/><br/>
@@ -39,7 +39,7 @@ const About = () => {
                     And I can fly a helicopter 🚁...haha just checking if you are still paying attention 😅.
                     </p>
                     </div>
-                    <div>
+                    <div className='img'>
                         <figure>
                             <img src={Photo} alt="Mukul Gaur" />
                         </figure>

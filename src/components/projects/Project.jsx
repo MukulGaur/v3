@@ -26,15 +26,17 @@ const Project = () => {
                             Mausam (Weather App)
                         </h3>
                     </div>
-                    <div className='d-flex'>
+                    <div>
+                        <div className='d-flex'>
                         <div><ArrowRightIcon/></div>
                         <div>
                         The weather app uses weather APIs from OpenWeatherMap
                         to fetch the temperature and other details of any city in the world.
                         </div>
-                    </div>
-                    <div className='tech-stack'>
-                        React JS
+                        </div>
+                        <div className='tech-stack'>
+                            React JS
+                        </div>
                     </div>
             </div>
             <div className='card'>
@@ -65,14 +67,16 @@ const Project = () => {
                                 was used for the designing part, and formik was used for form validations.
                             </div>
                         </div>
-                        <div className='d-flex'>
+                        <div>
+                            <div className='d-flex'>
                             <div><ArrowRightIcon/></div>
                             <div>
                                 Back-end REST APIs were developed using Java Spring framework.
                             </div>
-                        </div><br/>
-                        <div className='tech-stack'>
-                            React JS, Java Spring, MySQL
+                            </div><br/>
+                            <div className='tech-stack'>
+                                React JS, Java Spring, MySQL
+                            </div>
                         </div>
                     </div>
             </div>

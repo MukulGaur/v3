@@ -6,10 +6,10 @@ const Footer = () => {
     <div>
         <div className='footer'>
             <p>
-                Inspired By <a href='https://brittanychiang.com/' target='_mukul'>Brittany Chiang</a>
+            Developed By <a href='https://github.com/MukulGaur' target='_mukul'>Mukul Gaur</a>
             </p>
             <p>
-                Developed By <a href='https://github.com/MukulGaur' target='_mukul'>Mukul Gaur</a>
+                Inspired By <a href='https://brittanychiang.com/' target='_mukul'>Brittany Chiang</a>
             </p>
         </div>
     </div>

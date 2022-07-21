@@ -6,6 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailIcon from '@mui/icons-material/Mail';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import Resume from '../../assets/Mukul Gaur Resume.pdf';
 
 const Header = () => {
 
@@ -24,16 +25,16 @@ const Header = () => {
         <nav>
             <ul className='navbar-list'>
                 <li className='list-link'>
-                    <span className='menu-number'>01.</span><span className='menu-item'> ABOUT</span>
+                    <a href='#about-detail'><span className='menu-number'>01.</span><span className='menu-item'> ABOUT</span></a>
                 </li>
                 <li className='list-link'>
-                    <span className='menu-number'>02.</span><span className='menu-item'> EXPERIENCE</span>
+                    <a href='#exp-section'><span className='menu-number'>02.</span><span className='menu-item'> EXPERIENCE</span></a>
                 </li>
                 <li className='list-link'>
-                    <span className='menu-number'>03.</span><span className='menu-item'> PROJECTS</span>
+                    <a href='#project-section'><span className='menu-number'>03.</span><span className='menu-item'> PROJECTS</span></a>
                 </li>
                 <li className='list-link'>
-                    <button id='resume'>RESUME</button>
+                    <button id='resume'><a href={Resume} download>RESUME</a></button>
                 </li>
             </ul>
         </nav>
@@ -44,13 +45,13 @@ const Header = () => {
       </header>
       <aside className='profile'>
         <div id='github'>
-          <GitHubIcon/>
+          <GitHubIcon onClick={() => window.open("https://github.com/MukulGaur")} />
         </div>
         <div id='linkedin'>
-          <LinkedInIcon/>
+          <LinkedInIcon onClick={() => window.open("https://www.linkedin.com/in/mukul-gaur/")} />
         </div>
         <div id='mail'>
-          <MailIcon/>
+          <MailIcon onClick={() => window.open("https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=mukulgaur91@gmail.com")} />
         </div>
       </aside>
       <div className='line-2'></div>
